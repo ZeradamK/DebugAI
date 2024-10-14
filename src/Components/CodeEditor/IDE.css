@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+
+
+.ide-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: #000000;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.editor-section {
+    position: relative;
+    padding: 1rem;
+    border-radius: 5px;
+    border: 0.1px solid rgba(201, 201, 201, 0.3);
+}
+
+.language-label {
+    color: #fff;
+    font-size: 16px;
+    margin-right: 10px;
+
+}
+
+.language-select {
+    margin-bottom: 1rem;
+    padding: 8px;
+    background-color: #000000;
+    color: #fff;
+    border: 0.1px solid rgba(201, 201, 201, 0.3);
+    font-size: 16px;
+}
+
+.submit-button {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.submit-button:disabled {
+    background-color: #555;
+    cursor: not-allowed;
+}
+
+.output-section {
+    background-color: #000000;
+    padding: 1rem;
+    border-radius: 5px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    color: #00ff00;
+}
+.editor-main{
+    background-color: black;
+}
